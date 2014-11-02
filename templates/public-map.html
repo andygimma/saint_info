@@ -9,13 +9,50 @@
    <h1>Map</h1>
    <div id="map"></div>
   <script>
-    var map = L.map('map').setView([9.5092,-13.7122], 4);
+    var map = L.map('map').setView([9.5092,-12.7122], 8);
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Map data Â© OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});           
     map.addLayer(osm);
 
-    L.marker([9.5092,-13.7122]).addTo(map)
-        .bindPopup('<p>Conakry 15.7122, -9.5092</p>');
+    L.marker([9.5092,-12.8122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+        
+    L.marker([9.6092,-12.7122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+        
+    L.marker([9.9092,-12.9122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.1092,-12.74122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.2092,-12.7522]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.4092,-12.7622]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.8092,-12.7722]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.5592,-12.7822]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.6692,-12.7922]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.7792,-12.8122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+            
+    L.marker([9.6092,-12.8222]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+        
+    L.marker([9.4092,-12.8322]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+        
+    L.marker([9.5092,-12.8422]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.5092,-12.8522]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.5092,-12.8622]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.5092,-12.7122]).addTo(map)
+        .bindPopup('<p>Phone: 12341234123</p><p>Symptoms: Headache, Vomiting</p><p>Sought Help: True</p><p>Turned away: True</p><p>Caring for someone else:True</p>');
+    L.marker([9.5092,-12.7122]).addTo(map)
+  
   </script>
 {% endblock %}

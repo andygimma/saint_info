@@ -1,6 +1,7 @@
 import os
 import jinja2
 import webapp2
+import csv
 
 from AuthenticationHandler import AuthenticationHandler
 
@@ -16,3 +17,6 @@ class CSVHandler(AuthenticationHandler):
       'user': user
     }
     self.response.write(TEMPLATE.render(template_values))
+    self.response.headers['Content-Type'] = 'text/csv'
+    self.response.headers['Content-Disposition'] = 'attachment; filename=file.csv'
+    writer = csv.writer(self.response.out)
